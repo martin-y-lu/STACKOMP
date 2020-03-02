@@ -80,6 +80,8 @@ The K character is used for user input, and the p and P characters are used for 
 Character| Instruction
 ---|---
 _< > ^ v_: | Change the direction of the intruction pointer movement
+_0 1 ... 9_: | Numerical cell of the specified value
+_X C M_:| Numerical cell of value 10, 100 and 1000 respectivley
 _S_:|Read the following cell into memory
 _u r d l_:| Pull from the stack in the specified direction
 _U R D L_:| Push into the stack in specified direction (with conditional subtractions)
